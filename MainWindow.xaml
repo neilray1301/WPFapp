@@ -8,13 +8,13 @@
         Title="My Application" Height="2187" Width="5052">
     <Window.Resources>
         <Style TargetType="TextBlock">
-            <Setter Property="FontSize" Value="20"/>
-            <Setter Property="Width" Value="160"/>
+            <Setter Property="FontSize" Value="18"/>
+            <Setter Property="Width" Value="140"/>
             <Setter Property="Margin" Value="10"/>
         </Style>
         <Style TargetType="TextBox">
             <Setter Property="FontSize" Value="20"/>
-            <Setter Property="Width" Value="250"/>
+            <Setter Property="Width" Value="230"/>
             <Setter Property="Margin" Value="10"/>
         </Style>
     </Window.Resources>
