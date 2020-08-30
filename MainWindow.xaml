@@ -23,11 +23,11 @@
          
             <Label Content="WPF Demo" HorizontalAlignment="Center" FontSize="36" FontWeight="Bold"></Label>
             <WrapPanel>
-                <TextBlock Text="Employee Id : "/>
+                <TextBlock Text="Customer Id : "/>
                 <TextBox Name="txtEmpId" />
             </WrapPanel>
             <WrapPanel>
-                <TextBlock Text="Employee Name : "/>
+                <TextBlock Text="Customer Name : "/>
                 <TextBox Name="txtEmpName" />
             </WrapPanel>
             <WrapPanel>
