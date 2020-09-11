@@ -21,7 +21,7 @@
     <DockPanel Name="dockMain" VerticalAlignment="Center" HorizontalAlignment="Center" LastChildFill="False">
         <StackPanel >
          
-            <Label Content="WPF Demo" HorizontalAlignment="Center" FontSize="36" FontWeight="Bold"></Label>
+            <Label Content="WPF Demo" HorizontalAlignment="Center" FontSize="34" FontWeight="Bold"></Label>
             <WrapPanel>
                 <TextBlock Text="Customer Id : "/>
                 <TextBox Name="txtEmpId" />
@@ -32,7 +32,7 @@
             </WrapPanel>
             <WrapPanel>
                 <TextBlock Text="Gender : "/>
-                <ComboBox FontSize="20" Name="ddlGender" Width="250" Margin="10">
+                <ComboBox FontSize="20" Name="ddlGender" Width="230" Margin="10">
                     <ComboBoxItem Content="Select Gender" Selector.IsSelected="True" />
                     <ComboBoxItem Content="Male" />
                     <ComboBoxItem Content="Female" />
@@ -47,8 +47,8 @@
                 <TextBox Name="txtAddress" TextWrapping="Wrap" AcceptsReturn="True" Height="75" />
             </WrapPanel>
             <WrapPanel Margin="0" HorizontalAlignment="Center" Height="59">
-                <Button Name="btnAdd" Content="Add" FontSize="25" Width="120" Margin="10" Click="btnAdd_Click" />
-                <Button Name="btnEdit" Content="Edit" FontSize="25" Width="120" Margin="10" Click="btnEdit_Click" />
+                <Button Name="btnAdd" Content="Add" FontSize="25" Width="110" Margin="10" Click="btnAdd_Click" />
+                <Button Name="btnEdit" Content="Edit" FontSize="25" Width="110" Margin="10" Click="btnEdit_Click" />
 
                 <Button Name="btnCancel" Content="Cancel" FontSize="25" Width="120" Margin="5" Click="btnCancel_Click" />
                 <Button Name="btnExit" Content="Exit" FontSize="25" Width="120" Margin="5" Background="#400000" Foreground="AntiqueWhite" Click="btnExit_Click" />
